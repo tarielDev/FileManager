@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FileMan.Commands.Base.FileMangerCommand">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Base\FileMangerCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileMan.Commands.ChangeDirectoryCommand">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAACAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ChangeDirectoryCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileMan.Commands.HelpCommand">
+    <Position X="9" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAgAAQAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\HelpCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileMan.Commands.ListDrivesCommand">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ListDrivesCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileMan.Commands.PrintDirectoryFilesCommand">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAARAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\PrintDirectoryFilesCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileMan.Commands.QuitCommand">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAgAAQAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\QuitCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileMan.ConsoleUserInterface" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FileMan.ConsoleUserInterface.HARS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ConsoleUserInterface.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QIBGACCCBEAAhAJIGRQoAAEIwAAS4CCEhAAICAVagOA=</HashCode>
+      <FileName>ConsoleUserInterface.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.394" Collapsed="true" />
+  </Class>
+  <Class Name="FileMan.ConsoleWindow">
+    <Position X="23.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAAAAAAAAAAAIQAAAAAAAAAIgQAgCAAAgAIA=</HashCode>
+      <FileName>ConsoleWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileMan.DirsAndFiles">
+    <Position X="21.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAEAAAAAEAQCAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirsAndFiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileMan.FileManagerLogic">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAABAAACAAAAAAAUAAACAoAAAAAAAAAA=</HashCode>
+      <FileName>FileManagerLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileMan.StartSettings">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAFSAgQCwLQAACEIgAMDYAgEEAAAABwACSBEgAEADQ=</HashCode>
+      <FileName>StartSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FileMan.IHighlight">
+    <Position X="13.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAAAAA=</HashCode>
+      <FileName>IHighlight.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileMan.IUserInterface">
+    <Position X="15.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABEAACCBEAAhABICQQgAAAIgAACYCCAhAAACAFagKA=</HashCode>
+      <FileName>IUserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
